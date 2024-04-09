@@ -8,14 +8,14 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         // Adicionando 10 pessoas à fila (exemplo)
-        fila.add(new Aluno("2023104192040001", "João", "Engenharia"));
-        fila.add(new Aluno("2023104192040002", "Maria", "Medicina"));
+        fila.add(new Aluno("2023104192040001", "João", "TSI"));
+        fila.add(new Aluno("2023104192040002", "Maria", "Pedagogia"));
         fila.add(new Professor(12345, "Carlos", "Doutor"));
         fila.add(new Professor(54321, "Ana", "Mestre"));
         fila.add(new Tecnico(98765, "José"));
         fila.add(new Tecnico(56789, "Marta"));
-        fila.add(new Aluno("2023104192040003", "Pedro", "Direito"));
-        fila.add(new Aluno("2023104192040004", "Juliana", "Administração"));
+        fila.add(new Aluno("2023104192040003", "Pedro", "BCC"));
+        fila.add(new Aluno("2023104192040004", "Juliana", "Agronomia"));
         fila.add(new Professor(24680, "Fernanda", "PhD"));
         fila.add(new Tecnico(13579, "Lucas"));
 
