@@ -1,9 +1,9 @@
 class Aluno {
-    private int matricula;
+    private String matricula;
     private String nome;
     private String curso;
 
-    public Aluno(int matricula, String nome, String curso) {
+    public Aluno(String matricula, String nome, String curso) {
         this.matricula = matricula;
         this.nome = nome;
         this.curso = curso;
