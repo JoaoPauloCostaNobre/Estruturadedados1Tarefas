@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class PilhasDinamicas {
+public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         DynamicStack pilhaPar = new DynamicStack();
