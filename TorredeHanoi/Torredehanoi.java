@@ -24,7 +24,7 @@ public class Torredehanoi {
             System.out.println("\nIniciando com " + n + " discos");
             hanoi(n, 'A', 'C', 'B');
             Instant end = Instant.now();
-            Duration duration = Duration.between(start, end);
+            Duration duration = Duration.between(start,  end);
             long seconds = duration.getSeconds();
             long millis = duration.toMillis() % 1000;
             long minutes = seconds / 60;
